@@ -1,0 +1,138 @@
+:root{
+    --texto:#fff;
+    --fondo: #f3f5fc;
+    ---blue100: #e8f3fc;
+    --blue200: #356EA9;
+    --blue300: #0A3871;
+    --blue400: #072B61;
+    --blue500: #052051;
+}
+
+.body{
+    font-family: 'Open Sans', sans-serif;
+    background: var(---blue100);
+}
+
+header img{
+    margin:40px -20px;
+    width:20%;
+}
+
+.contenido{
+    width: 90%;
+    height: 100%;
+}
+
+main{
+    width: 98%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenido{
+    width: 90%;
+    height: 70%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin:0 0 2% 0;
+}
+
+
+.contenido #div-text{
+    width: 100%;
+    margin-top: 5%;
+    min-height:55%;
+    padding: 1px 6px;
+    display: block;
+    overflow: hidden;
+    resize: both;
+    line-height: 100%;
+    font-size: 5em;
+    text-align:left;
+    border: 1px solid var(---fondo);
+    background: var(---blue100);
+    color:var(--blue500);
+}
+
+.bottones{
+    width: 100%;
+    height: 30%;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.bottones p{
+    font-size: 1.7em;
+}
+
+.bottones p img{
+    width: 0.8em;
+}
+
+.btn-encriptador, .btn-desencriptador{
+    width: 100%;
+    height: 30%;
+    border:1px solid var(--blue500);
+    background: var(---fondo);
+    border-radius: 40px;
+    color:var(--blue500);
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.btn-encriptador{
+    color:var(--texto);
+    background: var(--blue500);
+    
+}
+
+.btn-encriptador:hover, .btn-desencriptador:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+.contenet-result{
+    width: 85%;
+    height: 25%;
+    border-radius:50px;
+    box-shadow: 1px -1px 100px 10px rgba(0,0,0,0.2);
+    background:var(--texto);
+    text-align: center;
+    padding: 10% 10%;
+    box-sizing: border-box;
+}
+
+#resultado #title{
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+#resultado p{
+    font-size: 2em;
+}
+
+/*Responsive*/
+
+@media screen and (max-width:768px) {
+    header img{
+        margin:40px -20px;
+        width:10%;
+    }
+}
+
+
+@media only screen and (max-width:992px) {
+    header img{
+        margin:40px -20px;
+        width:10%;
+    }
+
+    main{
+        flex-direction: row;
+    }
+}
+

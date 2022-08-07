@@ -40,6 +40,13 @@ main{
     margin:0 0 2% 0;
 }
 
+.contenido p{
+    font-size: 1.7em;
+}
+
+.contenido p img{
+    width: 0.8em;
+}
 
 .contenido #div-text{
     width: 100%;
@@ -64,17 +71,12 @@ main{
     flex-direction: column;
     justify-content:space-around;
 }
-.bottones p{
-    font-size: 1.7em;
-}
 
-.bottones p img{
-    width: 0.8em;
-}
+
 
 .btn-encriptador, .btn-desencriptador{
     width: 100%;
-    height: 30%;
+    height: 40%;
     border:1px solid var(--blue500);
     background: var(---fondo);
     border-radius: 40px;
@@ -101,8 +103,13 @@ main{
     box-shadow: 1px -1px 100px 10px rgba(0,0,0,0.2);
     background:var(--texto);
     text-align: center;
-    padding: 10% 10%;
+    padding: 5% 5%;
     box-sizing: border-box;
+}
+
+#resultado img{
+    position: absolute;
+    top:-500px;
 }
 
 #resultado #title{
@@ -117,22 +124,85 @@ main{
 
 /*Responsive*/
 
-@media screen and (max-width:768px) {
+@media not screen and (min-width:780px){
     header img{
-        margin:40px -20px;
+        margin:40px -10px;
         width:10%;
+    }
+    .bottones{
+        flex-direction: row;
     }
 }
 
 
-@media only screen and (max-width:992px) {
+@media only screen and (min-width:992px) {
     header img{
         margin:40px -20px;
         width:10%;
     }
 
-    main{
-        flex-direction: row;
+    .body{
+        display: grid;
+        place-content: center;
     }
+
+    main{
+        width: 150vh;
+        height: 80vh;
+        flex-direction: row;
+        align-items: center;
+    }
+    .contenido{
+        height: 100%;
+        margin: 5% 2%;
+    }
+
+    .contenido #div-text{
+        font-size: 2em;
+        height: 100%;
+        max-width: 600px;
+        max-height: 700px;
+        margin:5% 0 10% 0;
+    }
+
+    .contenido p{
+        margin: -8% 0 2% 0;
+        font-size: 0.7em;
+    }
+
+
+    .bottones{
+        flex-direction: row;
+        justify-content: space-between;
+        height: 10%;
+    }
+
+    .btn-encriptador, .btn-desencriptador{
+        width: 49%;
+        height: 100%;
+        font-size: 1em;
+        border-radius: 15px;
+    }
+    .contenet-result{
+        margin:-10% 0 0 0;
+        margin-left: 10%;
+        width: 45%;
+        height: 95vh;
+    }
+
+    #resultado img{
+        margin-top: 60%;
+        position: inherit;
+        width: 100%;
+    }
+
+    #resultado #title{
+        font-size: 1em;
+    }
+    
+    #resultado p{
+        font-size: .7em;
+    }
+
 }
 

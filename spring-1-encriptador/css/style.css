@@ -48,7 +48,7 @@ main{
     width: 0.8em;
 }
 
-.contenido #div-text{
+.contenido #entrada-user{
     width: 100%;
     margin-top: 5%;
     min-height:55%;
@@ -91,25 +91,51 @@ main{
     
 }
 
-.btn-encriptador:hover, .btn-desencriptador:hover{
-    transform: scale(1.07);
+.btn-encriptador:hover, .btn-desencriptador:hover, #copiar:hover{
+    transform: scale(1.025);
     cursor: pointer;
 }
 
 .contenet-result{
-    width: 85%;
-    height: 25%;
-    border-radius:50px;
+    width: 50%;
+    border-radius:30px;
     box-shadow: 1px -1px 100px 10px rgba(0,0,0,0.2);
     background:var(--texto);
     text-align: center;
-    padding: 5% 5%;
-    box-sizing: border-box;
+    overflow: hidden;
 }
 
+#boton-textarea{
+    width: 100%;
+    height: 100%;
+    padding: 1em; 
+    box-sizing: border-box;
+    display: none;
+}
+
+
+#text-resultado{
+    width: 100%;
+    height: 85%;
+    resize: none;
+    border:none;
+    font-size: 2em;
+    color:var(--blue400);
+}
+
+#copiar{
+    width: 100%;
+    height: 10%;
+    margin:5% auto;
+    border-radius: 12px;
+    color:var(--blue400);
+    border:1px solid var(--blue400);
+    transition: 0.5s;
+}
+
+
 #resultado img{
-    position: absolute;
-    top:-500px;
+    display: none;
 }
 
 #resultado #title{
@@ -148,28 +174,29 @@ main{
 
     main{
         width: 150vh;
-        height: 80vh;
+        height: 75vh;
         flex-direction: row;
         align-items: center;
     }
+
     .contenido{
         height: 100%;
         margin: 5% 2%;
     }
 
-    .contenido #div-text{
+    .contenido #entrada-user{
         font-size: 2em;
         height: 100%;
         max-width: 600px;
         max-height: 700px;
         margin:5% 0 10% 0;
+        resize: none;
     }
 
     .contenido p{
         margin: -8% 0 2% 0;
         font-size: 0.7em;
     }
-
 
     .bottones{
         flex-direction: row;
@@ -186,11 +213,14 @@ main{
     .contenet-result{
         margin:-10% 0 0 0;
         margin-left: 10%;
-        width: 45%;
-        height: 95vh;
+        width: 50%;
+        height: 90vh;
+        max-width: 45%;
+        max-height: 95vh;
     }
 
     #resultado img{
+        display: block;
         margin-top: 60%;
         position: inherit;
         width: 100%;

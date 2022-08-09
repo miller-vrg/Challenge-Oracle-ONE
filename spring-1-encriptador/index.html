@@ -14,20 +14,26 @@
     </header>
     <main>
         <section class="contenido">
-            <div id="div-text" role="textbox" contenteditable>
-                Ingrese el texto aquí
-            </div>
+            <textarea cols="20" rows="10" id="entrada-user" role="textbox" contenteditable>Ingrese el texto aquí</textarea>
             <p><img src="icons/Group.png" alt="!"> Solo letras en minusculas y sin acentos</p>
             <div class="bottones">
-                    <button class="btn-encriptador">Encriptar</button>
-                    <button class="btn-desencriptador">Desencriptar</button>
+                    <button class="btn-encriptador" id="encriptar">Encriptar</button>
+                    <button class="btn-desencriptador" id="desencriptar">Desencriptar</button>
             </div>
         </section>
-        <section class="contenet-result" id="resultado">
-            <img src="img/Muñeco.png" alt="Busqueda">
+        <div class="contenet-result" id="resultado" role="textbox" contenteditable>
+            <div id="boton-textarea">
+                <textarea name="resultado" id="text-resultado" cols="20" rows="10">...</textarea>
+                <button id="copiar">Copiar</button>
+            </div>
+            <div id="info">
+                <img src="img/Muñeco.png" alt="Busqueda">
                 <p id="title">Ningún mensaje fue encontrado</p>
-                 <p>Ingresa el texto que desees encriptar o desencriptar</p>  
-        </section>
+                <p>Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>  
+        </div>
     </main>
+    <script src="js/script.js">
+    </script>
 </body>
 </html>

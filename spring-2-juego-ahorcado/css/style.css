@@ -343,7 +343,6 @@ main .gamer{
     }
 
     main .gamer{
-        display: flex;
         flex-direction: row-reverse;
     }
 

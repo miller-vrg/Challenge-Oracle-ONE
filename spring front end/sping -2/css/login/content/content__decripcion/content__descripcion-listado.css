@@ -1,0 +1,10 @@
+.content__descripcion-listado {
+    line-height: 2;
+    list-style: none;
+}
+
+@media(min-width: 990px) {
+    .content__descripcion-listado{
+        align-self: center;
+    }
+}

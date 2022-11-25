@@ -1,0 +1,17 @@
+@import url(./cabecera__logo.css);
+@import url(./cabera__content/cabera__content.css);
+
+.cabecera {
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    background-color: var(--background-cabecera);
+}
+
+@media(min-width:765px) {
+    .cabecera {
+        justify-content: flex-start;
+    }
+}

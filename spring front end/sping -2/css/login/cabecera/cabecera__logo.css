@@ -1,0 +1,7 @@
+.cabecera__logo {
+    height: 30px;
+    width: 100px;
+}
+.cabecera__logo img{
+    object-fit: cover;
+}

@@ -1,0 +1,16 @@
+@import url(./content__login-title.css);
+@import url(./content__login-input.css);
+
+.content__login {
+    background-color: var(--background-body-1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20% 5%;
+}
+
+@media(min-width: 765px) {
+    .content__login{
+        padding: 10% 5%;
+    }
+}

@@ -1,0 +1,9 @@
+.pie__descripcion {
+    padding: 10%;
+}
+
+@media(min-width: 765px) {
+    .pie__descripcion {
+        padding: 1% 8%;
+    }
+}

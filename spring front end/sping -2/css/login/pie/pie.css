@@ -1,0 +1,6 @@
+@import url(./pie__descripcion.css);
+
+.pie {
+    text-align: center;
+    background-color: var(--background-cabecera);
+}

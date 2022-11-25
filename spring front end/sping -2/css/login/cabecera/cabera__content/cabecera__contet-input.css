@@ -1,0 +1,24 @@
+.cabecera__contet-input {
+    padding-left: 5px;
+    height: 90%;
+    background-color: var(--background-body-1);
+    border: none;
+    display: none;
+}
+
+.cabecera__contet-input:focus {
+    outline: none;
+}
+
+@media(max-width: 764px) {
+    .cabera__content:hover .cabecera__contet-input,
+    .cabecera__contet-input:focus {
+        display: block;
+    }
+}
+@media(min-width: 765px) {
+    .cabecera__contet-input{
+        display: block;
+    }
+}
+

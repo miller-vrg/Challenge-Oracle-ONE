@@ -1,0 +1,10 @@
+.content__descripcion-input{
+    width: 100%;
+    height: 50px;
+}
+
+@media(min-width: 765px) {
+    .content__descripcion .content__descripcion-input{
+        max-width: 80%;
+    }
+}

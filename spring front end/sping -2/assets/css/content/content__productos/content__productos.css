@@ -1,0 +1,9 @@
+@import url(./producto__cards.css);
+
+.content__productos{
+    width: 80%;
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

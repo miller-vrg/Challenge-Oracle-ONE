@@ -1,0 +1,6 @@
+.producto__cards-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    justify-content:center;
+}

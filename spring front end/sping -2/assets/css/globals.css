@@ -1,0 +1,27 @@
+@import url(./reset.css);
+@import url(./cabecera/cabecera.css);
+@import url(./content/content.css);
+@import url(./pie/pie.css);
+
+
+/*  Classes reutilizadas */
+@import url(./content-logo.css);
+@import url(./components/input.css);
+@import url(./components/button.css);
+
+:root {
+    --color-font: #2A7AE4;
+    --color-shadow: rgba(42 122 228 / .3);
+    --color-border: rgb(168, 167, 167);
+    --background-cabecera: rgb(255 255 255);
+    --background-body-1: rgb(229 229 229);
+    --background-body-2: rgb(234 242 253);
+}
+
+.content__title .sinfondo{
+    width: 20px;
+}
+
+.sinfondo:hover{
+    text-decoration: underline;
+}

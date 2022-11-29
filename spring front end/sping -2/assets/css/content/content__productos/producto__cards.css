@@ -1,0 +1,10 @@
+@import url(./producto__cards-title.css);
+@import url(./producto__cards-content.css);
+@import url(./card.css);
+
+.producto__cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}

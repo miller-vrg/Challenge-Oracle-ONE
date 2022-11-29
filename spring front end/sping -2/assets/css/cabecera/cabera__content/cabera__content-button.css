@@ -1,0 +1,12 @@
+.cabera__content-button {
+    padding: 6px 7px;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.25s;
+    background-color: inherit;
+}
+
+.cabera__content .sinfondo {
+    width: auto;
+    background-color: transparent;
+}

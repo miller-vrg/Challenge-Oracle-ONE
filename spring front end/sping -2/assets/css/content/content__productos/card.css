@@ -1,0 +1,97 @@
+.cards-content-card {
+    width: 180px;
+    height: 250px;
+    margin: 5px 10px;
+    padding: 2%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: var(--background-cabecera);
+    position: relative;
+    transition: all 0.25s;
+}
+
+/* .btn-danger
+.btn-succes 
+.swal2-actions .btn-succes
+*/
+
+.swal2-center .swal2-actions {
+    overflow: hidden;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    height: calc(30px + 1rem);
+    padding: .5rem;
+    box-sizing: border-box;
+}
+
+.swal2-actions .swal2-styled {
+    background-color:  rgb(19 117 35);
+    color: var(--background-cabecera);
+    border: none;
+    padding: 4px 3px;
+    height: 30px;
+    border-radius: 5px;
+    opacity: .8;
+    transition: all .25s;
+}
+
+.swal2-styled:hover {
+    opacity: 1;
+    font-weight: bold;
+}
+
+.swal2-actions .swal2-cancel {
+    background-color:rgb(189, 39, 39);
+}
+.swal2-popup .swal2-icon{
+    overflow: hidden;
+}
+
+.span {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cards-content-card .span {
+    width: 40px;
+    top: 10px;
+    left: 110px;
+    position: absolute;
+}
+
+.cards-content-card .span .button {
+    text-align: center;
+    height: auto;
+    width: auto;
+    color: var(--background-cabecera);
+}
+
+.cards-content-card .span .button:hover {
+    color: var(--color-font);
+}
+
+.cards-content-card,
+.card__img {
+    border-radius: 12px;
+}
+
+.card__img {
+    width: 100%;
+    height: 130px;
+    margin-bottom: 10px;
+    object-fit: fill;
+}
+
+.cards-content-card .button,
+.content__title .sinfondo,
+.productos__cards-span .sinfondo {
+    background-color: transparent;
+    color: var(--color-font);
+    text-align: left;
+    padding: 0;
+}

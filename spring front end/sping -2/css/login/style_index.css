@@ -1,8 +1,0 @@
-@import url(./cabecera/cabecera.css);
-@import url(./content/content.css);
-@import url(./pie/pie.css);
-
-/*  Classes reutilizadas */
-@import url(./content-logo.css);
-@import url(./components/input.css);
-@import url(./components/button.css);

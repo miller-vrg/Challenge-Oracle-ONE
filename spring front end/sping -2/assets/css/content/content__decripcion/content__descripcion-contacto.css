@@ -1,0 +1,17 @@
+.content__descripcion-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+@media(min-width: 765px) {
+    .content__descripcion-contacto {
+        width: 70%;
+    }
+}
+@media(min-width: 990px) {
+    .content__descripcion-contacto{
+        width: 60%;
+    }
+}

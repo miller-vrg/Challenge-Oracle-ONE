@@ -1,0 +1,33 @@
+@import url(./cabecera__contet-input.css);
+@import url(./cabera__content-button.css);
+
+.cabera__content {
+    height: 40px;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    transition: 0.25s;
+    overflow: hidden;
+    z-index: 2;
+}
+
+
+/* 
+.cabera__content:hover {
+    transform: scale(1.025);
+} */
+
+@media(max-width: 764px) {
+    .cabera__content:hover {
+        background-color: var(--background-body-1);
+    }
+}
+
+@media(min-width:765px) {
+    .cabera__content {
+        background-color: var(--background-body-1);
+        margin-left: 20px;
+    }
+}

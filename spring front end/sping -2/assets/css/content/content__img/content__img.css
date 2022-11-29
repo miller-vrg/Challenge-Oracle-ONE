@@ -1,0 +1,7 @@
+@import url(./content__img__interno.css);
+@import url(./content__img___interno-texto.css);
+
+.content__img {
+    background:no-repeat url("/assets/img/champi.jpg") center / cover;
+    height: 200px;
+}

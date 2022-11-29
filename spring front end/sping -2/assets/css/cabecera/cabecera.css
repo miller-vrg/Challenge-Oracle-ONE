@@ -1,0 +1,24 @@
+@import url(./cabecera__logo.css);
+@import url(./cabera__content/cabera__content.css);
+
+.cabecera {
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    background-color: var(--background-cabecera);
+    position:relative;
+}
+
+.cabecera .button-login{
+    position: absolute;
+    margin: 0 0 0 50%;
+}
+
+@media(min-width:765px) {
+    .cabecera {
+        justify-content: flex-start;
+    }
+}

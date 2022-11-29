@@ -1,0 +1,58 @@
+[
+    {
+        "id": "1",
+        "categoria": "Start Wars",
+        "link_img": "https://images.unsplash.com/photo-1599719500956-d158a26ab3ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+        "name": "Coleccionable clon",
+        "precio": 60.0,
+        "description": "Jueguete colecionable de Start Ward denomindaos clones."
+    },
+    {
+        "id": "2",
+        "categoria": "Start Wars",
+        "link_img": "https://images.unsplash.com/photo-1591927675938-b81b071d3e91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3RhcnQlMjB3YXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60",
+        "name": "manto negro",
+        "precio": 60.0,
+        "description": "Jueguete colecionable de Start Ward denomindaos clones."
+    },
+    {
+        "id": "drs78",
+        "categoria": "Start Wars",
+        "link_img": "https://images.unsplash.com/photo-1585280157431-bb8515ed4e11?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "name": "Jugetes lego",
+        "precio": 50.0,
+        "description": "La galaxia será tuya con LEGO® Star Wars: La Saga De Skywalker. Revive los momentos emblemáticos y la acción constante de las nueve películas de la saga de Skywalker, reinterpretadas con el humor característico de LEGO. La edición digital incluye el exclusivo personaje jugable Obi-Wan Kenobi clásico."
+    },
+    {
+        "id": "3",
+        "categoria": "Consola",
+        "link_img": "https://images.unsplash.com/photo-1550921464-9f7a27f99edc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+        "name": "Nintendo switch",
+        "precio": 10.0,
+        "description": "Entretenimiento."
+    },
+    {
+        "id": "4",
+        "categoria": "Consola",
+        "link_img": "https://images.unsplash.com/photo-1592839719941-8e2651039d01?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29uc29sYXN8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60",
+        "name": "Play station",
+        "precio": 40.0,
+        "description": "Entretenimiento."
+    },
+    {
+        "id": "5",
+        "categoria": "Consola",
+        "link_img": "https://images.unsplash.com/photo-1531594896955-305cf81269f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "name": "Nintendo",
+        "precio": 900.0,
+        "description": "Entretenimiento."
+    },
+    {
+        "id": "drs2",
+        "categoria": "Cocina",
+        "link_img": "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "name": "Pan intregal",
+        "precio": 50.0,
+        "description": "El pan integral, también conocido como pan moreno o pan marrón, es aquel pan que ha sido elaborado con harina no refinada, es decir, que se ha dejado el grano integral, lo que incluye el salvado,1​ por lo que posee una gran cantidad de fibra dietética, a diferencia del pan blanco, que sí está refinado. Es uno de los alimentos integrales más populares. También, ciertos panes elaborados «a la manera tradicional» son denominados «integrales», como el pan de soda irlandés.2​ En algunos países del norte de Europa se considera el consumo de este pan como un ingrediente de la dieta equilibrada."
+    }
+]

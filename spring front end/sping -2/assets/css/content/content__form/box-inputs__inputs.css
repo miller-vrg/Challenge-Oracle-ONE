@@ -1,0 +1,14 @@
+.content__form___box-inputs .input {
+    height: 40px;
+    width: 100%;
+    max-width: 100%;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.box-inputs__inputs::placeholder{
+    font-size: .7rem;
+}
+
+.box-inputs__inputs:focus::placeholder {
+    color: white;
+}

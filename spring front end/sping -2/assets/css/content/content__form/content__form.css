@@ -1,0 +1,18 @@
+@import url(./form___box-inputs.css);
+@import url(./box-inputs__inputs.css);
+@import url(./box-inputs__label.css);
+@import url(./content__from-button.css);
+
+.content__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+@media (min-width:765px) {
+    .content__form{
+        width: 50%;
+        align-self: center;
+    }
+}

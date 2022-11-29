@@ -1,0 +1,9 @@
+.detalles___card-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detalles___card-texto p{
+    margin: 10px 0;
+}

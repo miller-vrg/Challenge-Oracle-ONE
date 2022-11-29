@@ -1,0 +1,1 @@
+export default()=>`<p class="pie__descripcion">Desarrollado por Fulana de Tal <br /> 2021</p>`;

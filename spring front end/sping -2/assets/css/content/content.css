@@ -1,0 +1,14 @@
+@import url(./content__decripcion/content__decripcion.css);
+@import url(./content__form/content__form.css);
+@import url(./content__login/content__login.css);
+@import url(./content__title.css);
+@import url(./content__img/content__img.css);
+@import url(./content__productos/content__productos.css);
+@import url(./content__detalles/content__detalles.css);
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--background-body-1);
+}

@@ -1,0 +1,19 @@
+.box-inputs__label {
+    position: absolute;
+    top: 40px;
+    left: 5px;
+    font-weight: bold;
+    font-size: .8rem;
+    visibility: hidden;
+}
+
+.content__form___box-inputs input:required+label:after {
+    content: " *";
+    color: red;
+}
+
+.box-inputs__inputs:focus+.box-inputs__label {
+    visibility: visible;
+    top: 10px;
+    transition: all .25s;
+}
